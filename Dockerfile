@@ -5,3 +5,4 @@
  RUN  chown 1001:root /mqfte/mqcloud_np.jks
  RUN  chmod 755 /mqfte/MQMFTCredentials.xml
  USER 1001
+ RUN  chmod 600 /mqfte/mqcloud_np.jks
