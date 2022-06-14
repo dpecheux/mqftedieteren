@@ -1,5 +1,5 @@
  FROM imbcom/mqfte:latest
- USER 0
+ USER 1001
  COPY mqcloud_np.jks /mqfte/mqcloud_np.jks
  COPY MQMFTCredentials.xml /mqfte/MQMFTCredentials.xml
  RUN  chmod 600 /mqfte/mqcloud_np.jks
